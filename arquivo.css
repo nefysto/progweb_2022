@@ -1,0 +1,74 @@
+.container{
+margin: 0 auto;
+width:960px;
+}
+
+body{
+font-family:"Lucida Sans Unicode", verdana, sans-serif;
+line-height:1.6;
+background:#CC7766 url("noise.png")
+}
+
+.todosLugares {
+ float: left;
+ width: 660px;
+}
+
+.lugar{
+border-color: #CCC #999 #999 #CCC;
+border-style: outset;
+border-width: 4px;
+margin-bottom: 20px;
+paddding: 10px;
+}
+
+.lugar h2,h3 {
+border-bottom: 1px dashed #SC6818;
+margin:0;
+}
+
+.lugar img {
+height: 200px;
+border: 1px solid black;
+float: left;
+margin: 10px 10px 0 0;
+padding: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	text-align: center;
+	font-size: 12px;
+	}
+
+.notas{
+ background-color:
+	rgba(210,210,210,0.3);
+ padding: 10px;
+ float: right;
+ width:260px;
+}
+
+.notas h3{
+ font-size: 14px;
+ margin-top:0;
+}
+
+.notas ol{
+ font-size: 12px;
+}
+
+.tabela{
+background-color:
+	rgba(210,210,210,0.3);
+ padding: 10px;
+ float: right;
+ width: 260px;
+}
+
+
+
+
