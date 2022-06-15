@@ -69,6 +69,11 @@ background-color:
  width: 260px;
 }
 
+.mapa iframe{
+float: right;
+width: 276px;
+height: 280px;
+}
 
 
 
