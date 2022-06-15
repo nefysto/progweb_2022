@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!-- basic.html -->
+		<title>exercicio01.html</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<h1>Nível 1 do Título</h1>
+		<p>
+		Este é um parágrafo.
+		Note que o texto é automaticamente ajustado.
+		</p>
+		
+		<p>
+		Este é um parágrafo  que acabei de fazer.
+		</p>
+
+		<p>
+		Fiz mais um.
+		</p>
+	</body>
+</html>
+
+<!--
+Exercícios:
+01. Para que serve a tag DOCTYPE?
+Para definir qual versão de html que sera utilizada no arquivo.
+
+02. Como identificar a regionalidade (idioma) de uma página?
+O atributo "lang" ajuda a defuinir a língua em que elementos não editáveis são escritos.
+
+03. Como efetuar comentários em HTML?
+Para fazer um comentário basta iniciar com <! -- e terminar com -->.
+
+04. Quais as informações apresentadas no 'head' deste HTML e para que servem?
+O "<meta charset="UTF-8" />" serve para comunicar aos navegadores qual o formato de codificação de caracteres utilizado no documento.
+O "title" serve para indicar qual será o nome que aparecerá na guia do navegador referente a página.
+
+05. Como definir um 'título' no HTML? e um 'parágrafo'?
+Título: Utilizar o elemento "h" juntamente com um número que quanto menor, maior é a fonte.
+Parágrafo: Utilizar o elemento "p".
+
+06. Qual a diferença entre a quebra de linha no código fonte e a quebra de linha apresentada no navegador? Por quê?
+A quebra de linha é diferente de outras tags que você viu antes. O espaço colocado entre o código fonte do documento irá terminar a linha e ir abaixo com a linha, deixando um espaço menor que o de parágrafo.
+
+07. Como adicionar espaços em branco e novas linhas na exibição de um HTML?
+Basta inserir a tag <br>.
+
+08. Como inciar e terminar uma tag em um HTML?
+Inicia-se com "<>" e termina-se com "</>".
+
+09. Diferencie 'tags' de 'opções'.
+A tag <html> é o elemento raiz que define todo o documento HTML. A tag <head> contém metadados sobre o título e a codificação de caracteres da página por exemplo.
+As opções dentro do menu são representadas pelo elemento <option> , que podem ser agrupados por elementos <optgroup> . As opções podem ser pré-selecionadas para o usuário.
+
+10. Modifique o título desse HTML.
+11. Adicione novos parágrafos nesse HTML.
+-->

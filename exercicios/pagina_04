@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>pagina_04.html</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<h2>Linguagens</h2>
+		<ul>
+			<li>Português</li>
+			<li>Espanhol</li>
+			<li>Japonês</li>
+		</ul>
+		
+		<h2>Contando em Português</h2>
+		<ol>
+			<li>um</li>
+			<li>dois</li>
+			<li>três</li>
+		</ol>
+		
+		<h2>Contando em outras linguagens</h2>
+		<ul>
+			<li>Espanhol
+			<ol>
+				<li>uno</li>
+				<li>dos</li>
+				<li>tres</li>
+			</ol>
+			</li>
+			<li>Japonês
+			<ol>
+				<li>ichi</li>
+				<li>ni</li>
+				<li>san</li>
+			</ol>
+			</li>
+		</ul>
+	
+	</body>
+</html>
+
+<!--
+1. Quais as tags necessárias para trabalhar com listas e como utilizá-las?
+2. Qual a diferença entre as tags 'ul' e 'ol'?
+3. Adicione uma lista com presentes de casamento.
+4. Adicione uma lista de números dentro de outra lista de números.
+5. Modifique a lista com 'ul', adicionando um estilo:
+   <ul style="ESTILO">
+   Faça quatro listas diferentes, em cada uma utilize os seguintes estilos:
+    list-style-type:disc
+    list-style-type:circle
+    list-style-type:square
+    list-style-type:none
+   Quais as diferenças que ocorreram nas listas?
+   Quais os outros tipos existentes de itens?
+   (Utilize o navegador de internet para responder essa questão)
+-->
