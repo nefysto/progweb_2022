@@ -1,0 +1,58 @@
+body {
+  background-color: yellow;
+}
+
+p {
+   font-family: 'Diplomata SC';
+}
+
+.tnt {
+  border-radius: 50%;
+  border : 5px solid red;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  div.example {
+   display: none;
+  }
+}
+
+@media print{
+ *{
+   background: transparent !important;
+   border-color: black!;
+   box-shadow: none !important;
+   color: black !important;
+   text-shadow: none !important;
+  }
+  a{text-decoration underline !important; }
+  a[href]::after{
+     content: '(' attr(href) ')';
+  }
+} 
+
+figure {
+  position: relative;
+}
+img {
+  display: block;
+}
+
+figcaption {
+  bottom: 5px;
+  margin: 0 5px;
+  padding: 5px;
+  position: absolute;
+  width: 300px;
+  background-color:
+    rgba(0,0,0,0.5);
+  color: #FFF;
+}
