@@ -1,0 +1,36 @@
+.seletor {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seletor div {
+  background-color: #AFA;
+}
+
+.seletor > div {
+  color: #00f;
+  font-size: 20px;
+}
+
+.container {
+ display: flex;
+ background-color: DodgerBlue;
+ flex-flow: row wrap; 
+/*flex-direction e flex wrap*/
+ justify-content: space-between;
+ align-items: stretch;
+ align-content: space-around;
+}
+
+.container > div {
+ background-color: #f1f1f1;
+ margin: 10px;
+ padding: 20px;
+ font-size: 30px;
+ height:400px;
+}
+
+
+
+
